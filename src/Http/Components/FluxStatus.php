@@ -29,9 +29,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-namespace TtenSrl\Flux\Http\Components;
+namespace LaravelBricks\Flux\Http\Components;
 
-use TtenSrl\Flux\Classes\Flowable;
+use LaravelBricks\Flux\Classes\Flowable;
 
 class FluxStatus extends \Illuminate\View\Component
 {

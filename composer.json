@@ -1,5 +1,5 @@
 {
-    "name": "ttensrl/flux",
+    "name": "laravel-bricks/flux",
     "description": "A description for flux.",
     "type": "package",
     "license": "MIT",
@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TtenSrl\\Flux\\": "./src"
+            "LaravelBricks\\Flux\\": "./src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TtenSrl\\Flux\\Tests\\": "tests"
+            "LaravelBricks\\Flux\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -32,10 +32,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TtenSrl\\Flux\\FluxServiceProvider"
+                "LaravelBricks\\Flux\\FluxServiceProvider"
             ],
             "aliases": {
-                "Capacitor": "TtenSrl\\Flux\\Facades\\Capacitor"
+                "Capacitor": "LaravelBricks\\Flux\\Facades\\Capacitor"
             }
         }
     },

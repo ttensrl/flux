@@ -4,7 +4,7 @@
          colors="true"
 >
     <testsuites>
-        <testsuite name="ttensrl/flux Test Suite">
+        <testsuite name="laravel-bricks/flux Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

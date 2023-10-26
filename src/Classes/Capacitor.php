@@ -29,7 +29,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-namespace TtenSrl\Flux\Classes;
+namespace LaravelBricks\Flux\Classes;
 
 class Capacitor
 {

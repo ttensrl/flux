@@ -1,8 +1,8 @@
 # Flux
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Travis](https://img.shields.io/travis/ttensrl/flux.svg?style=flat-square)]()
-[![Total Downloads](https://img.shields.io/packagist/dt/ttensrl/flux.svg?style=flat-square)](https://packagist.org/packages/ttensrl/flux)
+[![Travis](https://img.shields.io/travis/laravel-bricks/flux.svg?style=flat-square)]()
+[![Total Downloads](https://img.shields.io/packagist/dt/laravel-bricks/flux.svg?style=flat-square)](https://packagist.org/packages/laravel-bricks/flux)
 
 Flux è un componente Bricks per la gestione degli stati del Flusso base per contenuti.  
 Stati Flusso Base
@@ -15,13 +15,13 @@ graph TD;
 
 ## Installazione
 ``` bash
-composer require ttensrl/flux
+composer require laravel-bricks/flux
 ```
 
 ## Pubblicazione Asset
 E Possibile pubblicare gli Asset **View**, Lang ed il file di configurazione utilizzando la sintassi classica del **comando artisan** `vendor:publish`
 ``` bash
-php artisan vendor:publish  --provider="TtenSrl\Flux\FluxServiceProvider"
+php artisan vendor:publish  --provider="LaravelBricks\Flux\FluxServiceProvider"
 ```
 É inoltre possibile specificare un tag per selezionare il tipo di **asset** da publicare `--tag"Bricks-Flux-Translations"` per i file delle lingue, `--tag="Bricks-Flux-Config"` per i file di configurazione e `--tag="Bricks-Flux-View"` per le viste.
 ## Uso
@@ -71,7 +71,7 @@ E possibile specificare il valore dello stato per i tre stati fondamentali del f
 Quando viene creato un record, automaticamente viene aggiunto lo stato **draft**.
 
 ### Implementazione
-ttensrl/Flux possiede due **implementazioni** preconfezionate per il cambio di stato, una è basata sui **component di laravel**, ed una è basata su **Livewire**.
+laravel-bricks/Flux possiede due **implementazioni** preconfezionate per il cambio di stato, una è basata sui **component di laravel**, ed una è basata su **Livewire**.
 
 #### Implementazione via Laravel Component
 L'implementazione via **component** richiede di aggiungere un componente all'interno della **form** che gestisce la modifica, passando l'oggetto che implementa **l'interfaccia** Flowable.
@@ -144,8 +144,8 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [Stefano Pimpolari](https://www.ttemptation.it/gitlab/ttemptation/laravel-ttensrl/base-flux)
-- [All Contributors](https://www.ttemptation.it/gitlab/ttemptation/laravel-ttensrl/base-flux/activity)
+- [Stefano Pimpolari](https://www.ttemptation.it/gitlab/ttemptation/laravel-laravel-bricks/base-flux)
+- [All Contributors](https://www.ttemptation.it/gitlab/ttemptation/laravel-laravel-bricks/base-flux/activity)
 
 ## Security
 If you discover any security-related issues, please email stefano.pimpolari@tten.it instead of using the issue tracker.

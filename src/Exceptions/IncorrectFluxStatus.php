@@ -30,7 +30,7 @@
  * SOFTWARE.
  */
 
-namespace TtenSrl\Flux\Exceptions;
+namespace LaravelBricks\Flux\Exceptions;
 
 use Illuminate\Support\Collection;
 use InvalidArgumentException;

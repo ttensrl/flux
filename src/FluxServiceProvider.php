@@ -1,12 +1,12 @@
 <?php
 
-namespace TtenSrl\Flux;
+namespace LaravelBricks\Flux;
 
-use TtenSrl\Flux\Classes\Capacitor;
-use TtenSrl\Flux\Http\Components\FluxStatus;
-use TtenSrl\Flux\Http\Livewire\FluxStatus as FluxStatusLivewire;
-use TtenSrl\Navigator\View\Components\NavigatorMenu as NavigatorMenuComponent;
-use TtenSrl\Navigator\View\Components\SystemMenu as SystemMenuComponent;
+use LaravelBricks\Flux\Classes\Capacitor;
+use LaravelBricks\Flux\Http\Components\FluxStatus;
+use LaravelBricks\Flux\Http\Livewire\FluxStatus as FluxStatusLivewire;
+use LaravelBricks\Navigator\View\Components\NavigatorMenu as NavigatorMenuComponent;
+use LaravelBricks\Navigator\View\Components\SystemMenu as SystemMenuComponent;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;

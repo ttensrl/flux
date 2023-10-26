@@ -29,10 +29,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-namespace TtenSrl\Flux\Http\Livewire;
+namespace LaravelBricks\Flux\Http\Livewire;
 
-use TtenSrl\Flux\Classes\Flowable;
-use TtenSrl\Flux\Facades\Capacitor;
+use LaravelBricks\Flux\Classes\Flowable;
+use LaravelBricks\Flux\Facades\Capacitor;
 use Livewire\Component;
 
 class FluxStatus extends Component

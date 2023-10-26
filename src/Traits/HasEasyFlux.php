@@ -1,6 +1,6 @@
 <?php
-namespace TtenSrl\Flux\Traits;
-use TtenSrl\Flux\Exceptions\IncorrectFluxStatus;
+namespace LaravelBricks\Flux\Traits;
+use LaravelBricks\Flux\Exceptions\IncorrectFluxStatus;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 

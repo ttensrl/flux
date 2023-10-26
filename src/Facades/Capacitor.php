@@ -29,7 +29,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-namespace TtenSrl\Flux\Facades;
+namespace LaravelBricks\Flux\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
